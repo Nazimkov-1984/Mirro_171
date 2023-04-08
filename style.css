@@ -1,0 +1,39 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+#header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+padding-left: 136px;
+padding-right: 288px;
+padding-bottom: 20px;
+}
+nav a {
+    color: #3A5F56;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+section, footer {
+    height: 100vh;
+}
+#main {
+    background-color: rgb(10, 32, 144);
+ }
+#presets {
+    background-color: aqua;
+}
+#services {
+        background-color: rgb(46, 149, 26);
+}
+ #store {
+    background-color: rgb(204, 228, 47);
+ }
+  #contact {
+    background-color: rgb(184, 55, 89);
+ }
+ 

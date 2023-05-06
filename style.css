@@ -79,6 +79,7 @@ footer {
 #services {
   padding: 147px 136px 100px;
   background: radial-gradient(at bottom left, rgba(58, 95, 86, 0.376) 0%, rgba(58, 95, 86, 0) 100%);
+  height: auto;
 }
 .services-header {
   font-size: 32px;
@@ -143,7 +144,46 @@ footer {
   color: #3a5f56;
 }
 #store {
-  background-color: rgb(204, 228, 47);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#store ul {
+  display: flex;
+  list-style-type: none;
+}
+#store h2 {
+  font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #DB343B;
+}
+#store p {
+  width: 534px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #292C32;
+}
+#store ul li p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #3A5F56;
+width: 300px;
+text-align: left;
+}
+#store ul li:not(:last-child) {
+  margin-right: 16px;
 }
 #contact {
   background-color: rgb(184, 55, 89);

@@ -78,7 +78,7 @@ footer {
   cursor: pointer;
 }
 #presets {
-  /* background-color: #292C32; */
+  background-color: #292C32;
 }
 #presets h2 {
   border:2px solid  green;
@@ -219,7 +219,7 @@ text-align: left;
 }
 #store ul li:not(:last-child) {
   margin-right: 16px;
-}а
+}
 #contact {
   background-color: rgb(184, 55, 89);
 }
@@ -234,4 +234,44 @@ text-align: left;
   color: black;
   text-transform: uppercase;
   width: 82px;
+}
+
+@media screen and (max-width: 376px) {
+  #header {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+  }
+  #header img {
+    margin-bottom: 19px;
+  }
+  nav a:last-child {
+    margin-right: 0;
+  }
+  nav a {
+    font-size: 19px;
+  }
+  .main-content h1, .main-content p {
+    width: 350px;
+  }
+  #main {
+padding-left: 0;
+padding-right: 0;
+flex-direction: column;
+align-items: center;
+  }
+  #main img {
+    width: 350px;
+  }
+  .main-content {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #services {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services-description {
+    width: 350px;
+  }
 }

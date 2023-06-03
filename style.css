@@ -253,6 +253,7 @@ text-align: left;
   }
   .main-content h1, .main-content p {
     width: 350px;
+    text-align: center;
   }
   #main {
 padding-left: 0;
@@ -274,4 +275,28 @@ align-items: center;
   .services-description {
     width: 350px;
   }
+  #store {
+    height: auto;
+    padding: 16px 0;
+  }
+  #store p {
+    width: 370px;
+  }
+  #store ul {
+    flex-direction: column;
+    padding: 16px 0;
+  }
+  #store ul li {
+    margin-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #store ul li img {
+    margin-bottom: 6px;
+  }
+  #store ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
 }

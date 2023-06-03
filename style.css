@@ -236,7 +236,7 @@ text-align: left;
   width: 82px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
   #header {
     padding-left: 0;
     padding-right: 0;
